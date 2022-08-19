@@ -33,6 +33,8 @@ button {
 button:focus-visible {
   outline: 2px solid rgb(212, 208, 208);
   border-radius: 3px;
+  filter: opacity(50%);
+  transition: .1s;
 }
 
 .icon{
@@ -103,8 +105,10 @@ button:focus-visible {
 
 .modal__item a:hover ~ .modal__item-before{
     background: #41F6D7;
+    transition: 1s;
 } 
 .modal__item a:focus ~ .modal__item-before{
+    transition: 1s;
     background: #41F6D7;
 } 
 
